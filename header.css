@@ -18,9 +18,9 @@
   font-size: 0;
 }
 #header #logo .section{
-  font-size: 8vh;
+  font-size: 5vmin;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   text-shadow: 2px 2px #000;
 }
 #header #logo #divider{
@@ -30,25 +30,25 @@
   margin-left: 1vh;
   margin-right: 1vh;
   border: 0.4vh #000 solid;
-  background-color: #FFF;
+  background-color: #308020;
 }
 #header #link-container{
+  margin-top: 2vh;
   font-family: Saira Semi Condensed;
-  margin-top: 1vh;
-  margin-right: 1vh;
-  height: 6vh;
+  height: 6vmin;
   vertical-align: middle;
   display: inline-block;
   float: right;
   font-size: 0;
 }
 #header #link-container .link{
+  margin: auto;
   text-shadow: 1px 1px #000;
   color: #1DAB07;
-  font-size: 6vh;
+  font-size: 6vmin;
   display: inline-block;
-  margin-left: 1vh;
-  margin-right: 1vh;
+  margin-left: 1vmin;
+  margin-right: 1vmin;
   transition: 0.1s;
 }
 #header #link-container .link:hover{
