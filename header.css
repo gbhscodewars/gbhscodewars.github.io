@@ -1,0 +1,59 @@
+#header{
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 10vh;
+  background-color: #333;
+  position: fixed;
+  font-family: Ubuntu Condensed;
+  padding: none;
+  font-size: 0;
+  border-bottom: 1vh #777 solid;
+  display: block;
+}
+#header #logo{
+  display: inline-block;
+  color: #11B400;
+  margin-left: 1vw;
+  font-size: 0;
+}
+#header #logo .section{
+  font-size: 8vh;
+  display: inline-block;
+  vertical-align: top;
+  text-shadow: 2px 2px #000;
+}
+#header #logo #divider{
+  height: 8.2vh;
+  width: 0.2vh;
+  margin-top: 0.5vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  border: 0.4vh #000 solid;
+  background-color: #FFF;
+}
+#header #link-container{
+  font-family: Saira Semi Condensed;
+  margin-top: 1vh;
+  margin-right: 1vh;
+  height: 6vh;
+  vertical-align: middle;
+  display: inline-block;
+  float: right;
+  font-size: 0;
+}
+#header #link-container .link{
+  text-shadow: 1px 1px #000;
+  color: #1DAB07;
+  font-size: 6vh;
+  display: inline-block;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  transition: 0.1s;
+}
+#header #link-container .link:hover{
+  color: #61BA07;
+  text-shadow: 1px 1px #000;
+  transform: skew(-20deg,0);
+  transition: 0.2s;
+}
